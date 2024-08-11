@@ -6,7 +6,7 @@
 
 tasks:
   - init: |
-      sdk install java 17.0.12-zulu
+      yes | sdk install java 17.0.12-zulu 
       mvn install -DskipTests=false
 
 
